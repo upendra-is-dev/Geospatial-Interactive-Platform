@@ -1,0 +1,24 @@
+{
+  "name": "geospatial-backend",
+  "version": "1.0.0",
+  "description": "GraphQL backend for 3D geospatial platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/data/processData.js"
+  },
+  "keywords": ["graphql", "geospatial", "census"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.12.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
