@@ -13,7 +13,7 @@ function App() {
   const [metrics, setMetrics] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [viewState, setViewState] = useState(null);
+  const [, setViewState] = useState(null);
 
   // Load metrics when filters change
   useEffect(() => {

@@ -113,4 +113,7 @@ if (typeof window !== 'undefined') {
   };
 }
 
-export default {};
+const webglPatch = {};
+
+export default webglPatch;
+
